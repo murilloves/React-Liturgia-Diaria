@@ -41,6 +41,12 @@ button.btn-top:hover {
   align-items: center;
   justify-content: center;
 }
+@media(min-width: 768px) {
+  .paragraph img {
+    width: auto !important;
+    margin: 1em 1.5em !important;
+  }
+}
 .paragraph * {
   max-width: calc(100vw - 2.7em) !important;
   padding: 0 !important;
