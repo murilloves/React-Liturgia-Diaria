@@ -1,0 +1,53 @@
+
+.flex { display: flex }
+.flex-align-center { align-items: center }
+.flex-align-end { align-items: flex-end }
+.flex-justify-center { justify-content: center }
+.flex-justify-end { justify-content: flex-end }
+.flex0 { flex: 0 }
+.flex1 { flex: 1 }
+.ph-1 { padding-left: 1em; padding-right: 1em }
+.ph-2 { padding-left: 2em; padding-right: 2em }
+.mh-1 { margin-left: 1em; margin-right: 1em }
+.mh-2 { margin-left: 2em; margin-right: 2em }
+
+.pointer { cursor: pointer }
+
+button.btn-top {
+  font-size: 3vh;
+  height: 8vh;
+  border: 2px solid #333;
+  margin: 2px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+button.btn-top:hover {
+  background: #444;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.paragraph {
+  padding: 1em 1.5em;
+  text-align: justify;
+}
+.paragraph img {
+  width: 100vw !important;
+  margin-right: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paragraph * {
+  max-width: calc(100vw - 2.7em) !important;
+  padding: 0 !important;
+}
+
+button.btn-top.active {
+  background: #fff;
+  border: 2px solid #333;
+  color: #333;
+}
